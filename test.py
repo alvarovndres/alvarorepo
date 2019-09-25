@@ -32,15 +32,15 @@ def Menu():
     9.Salir""")
     
     
-    while True:
+while True:
         
         Menu()
         
         op=int(input("Ingrese su opcion: "))
         
         if(op!=9 and op>=1 and op<=4):
-            num1=float(input("Ingrese un numero"))
-            num2=float(input("Ingrese otro numero"))
+            num1=float(input("Ingrese un numero: "))
+            num2=float(input("Ingrese otro numero: "))
             
         if op==1:
             Sumar(num1,num2)
@@ -51,9 +51,9 @@ def Menu():
         elif op==4:
             Dividir(num1,num2)
         elif op==9:
-            print("Fin del Programa")
+            print("Fin del Programa.....")
             Pausa()
             break
         else:
-            print("Opcion no valida")
+            print("Opcion no valida....")
         Pausa()

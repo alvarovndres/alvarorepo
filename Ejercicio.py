@@ -6,6 +6,8 @@ from os import system
 # BUSCAR POR RUT.
 #COMUNAS: CONCEPCION, TALCAHUANO, HUALPEN.
 
+Nombre
+
 while True:
     print("""1. Ingresar Cliente"
           2. Modificar Cliente
@@ -13,4 +15,5 @@ while True:
           4. Buscar Cliente
           5. Contar Clientes Inactivos
           6. Contar Clientes por Comuna""")
+    
 
